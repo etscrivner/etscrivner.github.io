@@ -8,9 +8,9 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.7.4"
+# gem "jekyll", "~> 3.7.4"
 
-gem "travis"
+gem "travis", "~> 1.8"
 gem 'coderay', '~> 1.1.0'
 gem 'rake-jekyll', '~> 1.1.0'
 
@@ -26,7 +26,6 @@ group :jekyll_plugins do
   gem "jekyll-asciidoc"
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-gist"
-  gem 'github-pages'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
