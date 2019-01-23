@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Desearch and Revelopment
+encoding: UTF-8
 # email: eric.t.scrivner@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Experiments in abstract thought and the theory of software engineering.
@@ -30,6 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-asciidoc
+  - jekyll-github
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
