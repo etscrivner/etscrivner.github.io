@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "On Labour and Time"
+date:   2014-07-29 09:01:00 -0800
+categories: philosophy
+---
+Economics and time are closely bound up with each other. However you may think
+that humans determine value - and there is doubtless a heavy psychological and
+physiological component to valuation - time must necessarily serve a regulating
+function in this process. If something takes a long time to produce it is
+usually a safe assumption that it will be costly. Similarly, things that take
+little time to produce are usually cheap.
+
+
+In our working lives time is everywhere. Time taken is a significant point of
+contention in labour contracts. A statement of work without an accompanying time
+estimation is rare. If you want something done faster it will always be more
+expensive, and there are limits to just how fast something can get done. Workers
+are contracted and paid for their labour time - with their wage being a social
+and psychological measure of the worth of their time. The floor for wages is
+presumably the bare minimum to sustain the life of the worker one more day -
+though as history shows us it is often much lower.
+
+image:/assets/images/arkwrights-cotton-mills-at-night.jpg[Arkwright's Cotton Mills At Night,width=450,float=right]
+
+Similary, production levels are determined by how much projected consumption
+there will be in the future. Modern startups focus on quickly releasing a
+minimum viable product (MVP) and then iterating to improve its profitability
+over time. When creating a product the amount of time it will take determines
+what kind of opportunity costs you'll have to pay.
+
+We can barely begin discussing our working lives without discussing time. "She
+always wastes my time". "He says he needs it done by next Monday". "She doesn't
+know how to manage her time". Time, work, and ultimately economics are all
+irrefutably linked. This leads to a conceptualization of time that is novel in
+history. One that is deeply concerned with its optimal allocation and efficient
+use - usually called time management and productivity. From every vantage point
+the old adage rings true: time is money.
+
+Believe it or not this theory - that time and money are closely linked - is
+highly controversial. The controversy has less to do with the obvious linkage
+between time and money and more to do with how this theory explains the origin
+of profits. So let's take a quick detour and explain how the linkage between
+time and money can be used to produce a profit.
+
+To simplify things we'll need to assume some pretty preposterous things.
+Firstly, we'll assume that everyone gets paid enough so that their labour isn't
+diminished significantly from day to day. We know full well that in reality this
+isn't the case. We'll also assume that every market is competitive enough that
+the commodities in these markets must be sold for their price plus only a tiny
+sliver of profit. In reality we know that monopolies exist that allow companies
+to gouge consumers on price yielding much higher profits. Under these
+assumptions we now have something like the classical model of economics as a
+mostly fair and self-regulating system. Think Adam Smith and the invisible hand
+of the market. In such a market an employer eager to turn a profit has only a
+few routes to accomplishing such an end. Firstly, she can get additional labour
+by working employees more hours. Since her contracts don't prevent her from
+asking for more hours we can simply say: "Everyone, we need you to stay late
+tonight. We have to get this out". Those who refuse will risk their jobs, and so
+through the fear of losing their means of survival we can coerce our employees
+to "freely" give up more time. After all the myth still prevails that they can
+always quit and find a better job if they don't like it. We find modern evidence
+of this practice http://ea-spouse.livejournal.com/274.html[all]
+http://abcnews.go.com/US/story?id=93604[over]
+http://www.americanprogress.org/issues/labor/report/2010/01/25/7194/the-three-faces-of-work-family-conflict/[the place].
+If, however, this isn't an option for us or we believe it would be more ethical
+to just arouse the natural hard worker dwelling in all our employees, we can
+always try to ramp up the intensity so more gets done in less time. We could do
+this by introducing some time pressure or stoking a little competition: "We've
+decided to start doing quarterly performance evaluations. These will determine
+your bonuses". Finally, we can try to find a technological means to increase our
+productivity thus allowing us to undercut our competitors or extract more profit
+at the same price. We can invest in automating our workforce to cut costs. A
+http://www.technologyreview.com/view/519241/report-suggests-nearly-half-of-us-jobs-are-vulnerable-to-computerization/[recent report]
+suggests that nearly half of all jobs are vulnerable to automation.
+
+Enter the controversy. Under such a system, since we've ruled out outright theft
+and extortion, the only means left to acquire more profit - and growing
+profitability is the goal of every business - are exploitation employing some
+variation of the strategies above. All of which have disastrous consequences for
+the worker. Either she becomes more stressed from longer or harder work hours -
+leading a all sorts of health issues. Or she faces rising job insecurity as more
+and more work becomes automated. Such an argument brings into question some of
+the very foundational elements of our society. In a world where many types of
+society are possible is the current form really a good deal? If the modern
+worker more than ever faces a Faustian dilemma between joblessness and unhealthy
+workplace stress with less and less assurance of a retirement at the end is
+there any question that an alternative is practically demanded? If you're like
+the 70% of American workers who find little to no fulfillment from the way
+they'll spend over one third of their waking life footnote:[See Gallup’s latest “State of the American Workplace” study, which describes this widespread misery about work: http://www.gallup.com/strategicconsulting/163007/state-american-workplace.aspx[http://www.gallup.com/strategicconsulting/163007/state-american-workplace.aspx]. 80 percent of those in the labor force in the United States are employed in service industries, where many jobs are understood to be worthless by those who hold them. The anthropologist David Graeber has called this kind of work “bullshit labor”: “huge swathes of people, in Europe and North America in particular, spend their entire working lives performing tasks they secretly believe do not really need to be performed. The moral and spiritual damage that comes from this situation is profound. It is a scar across our collective soul. Yet virtually no one talks about it.” (http://libcom.org/library/phenomenon-bullshit-jobs-david-graeber[http://libcom.org/library/phenomenon-bullshit-jobs-david-graeber]). And of course, our working conditions are considerably better than those of millions of even more exploited laborers globally who produce the products we consume." (From footnote 1 at: https://nplusonemag.com/online-only/help-desk/bank-robbin-in-brooklyn/[https://nplusonemag.com/online-only/help-desk/bank-robbin-in-brooklyn/])] or the 80% of
+workers who are stressed beyond the healthy level footnote:[The American Psychological Association's alarming results on workplace stress: http://www.apa.org/news/press/releases/stress/2012/generations.aspx[http://www.apa.org/news/press/releases/stress/2012/generations.aspx]] then perhaps it is
+time to really consider the alternatives. Since how you spend your time is
+ultimately how you spend your life the way that claims are made over your time
+is, I imagine, a point of intense interest. What are the alternatives? As a
+start I'll leave one of the alternatives that I like here -
+https://www.youtube.com/watch?v=ViywrpAyVdY[Basic Income: The Movie].
