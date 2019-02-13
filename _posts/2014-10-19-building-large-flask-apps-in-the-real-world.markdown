@@ -4,7 +4,7 @@ title:  "Build Large Flask Apps in the Real World"
 date:   2014-10-19 09:57:00 -0800
 categories: software
 ---
-Scaling a http://flask.pocoo.org/[Flask] application is no immediately obvious
+Scaling a [Flask](http://flask.pocoo.org/) application is no immediately obvious
 matter. At plug.dj we had ~22,000 line Flask application. At my previous
 employer our Flask application was significantly larger. Ultimately scaling a
 code-base is less about the framework used and more about the software design
@@ -13,15 +13,15 @@ also has little to do with the web framework and more to do with your
 understanding of load-balancing, caching, databases, etc. That being said, what
 have I learned about how to organize a Flask application to comfortably grow?
 
-Firstly, https://github.com/imwilsonxu/fbone[fbone] and
-https://github.com/cburmeister/flask-bones[flask-bones] are great first
+Firstly, [fbone](https://github.com/imwilsonxu/fbone) and
+[flask-bones](https://github.com/cburmeister/flask-bones) are great first
 approximations. If you're struggling to figure out how to structure your flask
 application have a look at those and consider using either one as a template
 that you can evolve to your needs. Also, I have to mention
-https://github.com/audreyr/cookiecutter[cookiecutter] as a tool for templating
+[cookiecutter](https://github.com/audreyr/cookiecutter) as a tool for templating
 the structure of python applications in general. In terms of the web application
 itself you might also consider using
-https://pythonhosted.org/Flask-Classy/[Flask-Classy] to build out your views.
+[Flask-Classy](https://pythonhosted.org/Flask-Classy/) to build out your views.
 
 Beyond that I hestitate to dictate anything else. There's never a
 one-size-fits-all solutions for complex real-world problems like this. There
@@ -33,8 +33,8 @@ much easier. So instead here are a few heuristics that I've used to kickstart
 this process:
 
 1. **Think about deployment**. How is it getting to the server? egg, wheel, rpm?
-   Will there be http://jenkins-ci.org/[continuous integration]? Are you using
-   http://www.saltstack.com/[salt] or http://www.puppetlabs.com[puppet]? How
+   Will there be [continuous integration](http://jenkins-ci.org/)? Are you using
+   [salt](http://www.saltstack.com/) or [puppet](http://www.puppetlabs.com)? How
    you deploy your application will determine what kind of structure you need
    and what kind of supporting utilites you may or may not have to write.
 2. **Think about app initialization**. Where is the entry point? How are
@@ -49,7 +49,7 @@ this process:
    database connections and other resources should be managed within a Flask
    application. Typically you should initialize a resource when a request comes
    in and tear it down before the response goes out. SQLAlchemy
-   http://docs.sqlalchemy.org/en/rel_0_7/orm/session.html#using-thread-local-scope-with-web-applications[explicitly covers]
+   [explicitly covers](http://docs.sqlalchemy.org/en/rel_0_7/orm/session.html#using-thread-local-scope-with-web-applications)
    integration with web frameworks in its documentation.
 4. **Organize by principle of least suprise**. Ask yourself, "How would I
    organize this so that someone using Notepad with a good grasp on the
@@ -80,7 +80,7 @@ this process:
    change. You should be able to switch databases, web frameworks, or deploy
    code to mobile devices with minimal code changes. A good place to start in
    figuring out how to do this is the
-   http://confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years[Architecture The Lost Years]
+   [Architecture The Lost Years](http://confreaks.com/videos/759-rubymidwest2011-keynote-architecture-the-lost-years)
    talk by Bob Martin.
 
 Each of these topics could easily fill a blog post on its own. With Flask in
@@ -93,5 +93,5 @@ shoot yourself in the foot in the areas where you don't.
 In the end you should be aiming to design your application to depend on Flask as
 little as possible. The framework shouldn't dictate your application design, and
 microframeworks in particular try to avoid doing this as much as possible.
-Recently even Flask has felt bulky. http://falconframework.org/[Falcon] seems
+Recently even Flask has felt bulky. [Falcon](http://falconframework.org/) seems
 like a good step in the direction of something smaller.

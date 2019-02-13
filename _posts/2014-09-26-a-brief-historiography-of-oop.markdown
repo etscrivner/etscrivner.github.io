@@ -6,25 +6,25 @@ categories: software
 ---
 To trace a history of object-oriented programming we have to travel back in
 time - the year: 1962, the land: Norway. A language called
-http://en.wikipedia.org/wiki/ALGOL[ALGOL] is all the rage as people begin
+[ALGOL](http://en.wikipedia.org/wiki/ALGOL) is all the rage as people begin
 exploring ways of programming away from the bare metal. ALGOL is quite a feat
 given the technology of the time.
-http://en.wikipedia.org/wiki/Kristen_Nygaard[Kristen Nygaard] and
-http://en.wikipedia.org/wiki/Ole-Johan_Dahl[Ole-Johan Dahl] decided to build a
+[Kristen Nygaard](http://en.wikipedia.org/wiki/Kristen_Nygaard) and
+[Ole-Johan Dahl](http://en.wikipedia.org/wiki/Ole-Johan_Dahl) decided to build a
 little thing on top of ALGOL they dub
-http://en.wikipedia.org/wiki/Simula[Simula]. The first version of this
+[Simula](http://en.wikipedia.org/wiki/Simula). The first version of this
 language was designed for
-http://en.wikipedia.org/wiki/Discrete_event_simulation[discrete event simulation]
+[discrete event simulation](http://en.wikipedia.org/wiki/Discrete_event_simulation)
 with the later Simula 67 introducing objects and classes. Now it's interesting
 that OO begins here - so let's pause and examine this more.
 
-image:/assets/images/porphyrys-tree.png[width=450,float="right"]
+<img src="/assets/images/porphyrys-tree.png" style="float:right" width="450" />
 
 Discrete event modeling is a way of modeling systems that decomposes them into
 entities and events. We can already see the primordial shapes of OO within this
 context but it took Simula to accentuate and really bring them out in the way
 we're all familiar with now - objects, classes, inheritance, virtual methods,
-and interestingly http://en.wikipedia.org/wiki/Coroutine[coroutines]. Now it's
+and interestingly [coroutines](http://en.wikipedia.org/wiki/Coroutine). Now it's
 interesting that co-routines were included and given the context - discrete
 event modeling - we can see just how they'd be useful. The word object was at
 the time taken much more literally to correspond with a really existing object -
@@ -43,7 +43,7 @@ corresponds to a really existing entity or set of entities within the physical
 system being modeled - eg. Teller, Ship, Missile. Intrinsically, an object is a
 way of modeling parts of a program by dividing it up into genus-species
 hierarchies in an Aristotelian
-link:http://en.wikipedia.org/wiki/Genus%E2%80%93differentia_definition[genus-differentia]
+[genus-differentia](http://en.wikipedia.org/wiki/Genus%E2%80%93differentia_definition)
 style (eg. App, File, Controller). Originally both senses seem to have been at
 play, and are often muddled together. Later on, however, we see the intrinsic
 definition of object begin to dominate. Objects are taken up as a means to
@@ -51,11 +51,11 @@ modularize code that supplements naked functions (in languages where these are
 available) and modules. They are frequently treated as an intermediate level of
 modularization, though this approach takes a long time to work out.
 
-Smalltalk eventually gives rise to the languages we are familiar with today link:http://en.wikipedia.org/wiki/C%2B%2B[{cpp}] and
-link:http://en.wikipedia.org/wiki/Java_%28programming_language%29[Java]. These
+Smalltalk eventually gives rise to the languages we are familiar with today [C++](http://en.wikipedia.org/wiki/C%2B%2B) and
+[Java](http://en.wikipedia.org/wiki/Java_%28programming_language%29). These
 languages are the first to achieve wide-spread success and to heavily spread the
 intrinsic view of object-oriented programming. It's interesting to take a look
-at the http://en.wikipedia.org/wiki/OOPSLA[OOPSLA proceedings]. Firstly we see
+at the [OOPSLA proceedings](http://en.wikipedia.org/wiki/OOPSLA). Firstly we see
 that functional languages have always been present but at the fringes. Smalltalk
 is the clear leader early on with some penetration by C++. By 1997, however, we
 see that Java has truly exploded onto the scene. This rise in object-oriented
@@ -109,7 +109,7 @@ to introduce into existing businesses that an entire consultancy arises
 fundamentally about helping organizations remedy their internal dysfunction
 enough to develop software.
 
-=== Summary and Conclusion
+### Summary and Conclusion
 
 This post was born out of an experiment to see if anything interesting and novel
 could be discovered simply by tracing the history of object-oriented

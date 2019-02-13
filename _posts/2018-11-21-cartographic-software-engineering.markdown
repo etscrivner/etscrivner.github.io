@@ -4,17 +4,16 @@ title:  "Cartographic Software Engineering"
 date:   2018-11-21 11:54:00 -0800
 categories: software
 ---
-""The utility of geography in matters of small concern, also, is quite evident; for instance, in hunting. A hunter will be more successful in the chase if he knows the character and extent of the forest; and after, only one who knows a region can advantageously pitch camp there, or set an ambush, or direct a march. The utility of geography is more conspicuous, however, in great undertakings, in proportion as the prizes of knowledge and the disasters that result from ignorance are greater.""
--- Strabo, _"Geographica"_
+> "The utility of geography in matters of small concern, also, is quite evident; for instance, in hunting. A hunter will be more successful in the chase if he knows the character and extent of the forest; and after, only one who knows a region can advantageously pitch camp there, or set an ambush, or direct a march. The utility of geography is more conspicuous, however, in great undertakings, in proportion as the prizes of knowledge and the disasters that result from ignorance are greater."
 
-{nbsp}
+Strabo, _"Geographica"_
 
-=== Introduction
+### Introduction
 
 Imagine, for once, that we chose to treat the software we produced not as a mental representation actualized, a blueprint constructed, or a sculpture refactored to perfection.
-Suppose, rather, that we chose to treat it as an link:https://en.wikipedia.org/wiki/Ecumene[ecumene] - a habitable world, a territory organized atop a wilder underlying landscape.
+Suppose, rather, that we chose to treat it as an [ecumene](https://en.wikipedia.org/wiki/Ecumene) - a habitable world, a territory organized atop a wilder underlying landscape.
 
-image:/assets/images/cartographic-software-engineering.jpg[width=450,float=right]
+<img src="/assets/images/cartographic-software-engineering.jpg" width="450" style="float: right; padding: 1em"/>
 
 Our software, then, would be the small village that arose first by laboriously clearing and driving back the wild forest.
 Whose buildings and fortifications were constructed - with varying levels of mastery - from the ready materials of that environment and whatever tools and techniques were brought along by its engineers, artisans, and craftsmen.
@@ -24,7 +23,7 @@ The terrain - all those strata we build on top of: hardware, operating systems, 
 
 The experience provided by construction itself would lead to improvements in tools and techniques as well as the creation of novel tools and techniques.
 A local culture would arise: cuisine, language, style, routines.
-Such local culture makes every mature codebase recognizable as link:https://en.wikipedia.org/wiki/Sui_generis[sui generis].
+Such local culture makes every mature codebase recognizable as [sui generis](https://en.wikipedia.org/wiki/Sui_generis).
 
 How would our methods change if we thought of our software this way?
 We would think of our services as villages, towns, cities, and countries.
@@ -39,10 +38,10 @@ Let us then sketch the first outlines of a *software cartography*.
 It is an underappreciated fact that software systems are incapable of singular abstract representation.
 No single image or document could ever fully capture a piece of software.
 Instead, every piece of software must be represented at multiple levels of abstraction and points-of-view simultaneously - machine level, programming language level, UI level, system diagram level, executive summary level, business strategy level.
-For this very reason, the https://en.wikipedia.org/wiki/ISO/IEC_42010[IEEE 42010 standard] chooses to emphasize the use of views and viewpoints over any single technique for describing a piece of software.
-This recognizes that the adequate description of a single software component may require a https://en.wikipedia.org/wiki/System_context_diagram[system diagram view], a https://en.wikipedia.org/wiki/Class_diagram[class diagram view], a https://en.wikipedia.org/wiki/Finite-state_machine[state-machine view], and a logic specification view (of which I could find no good Googleable examples, but you can learn more (https://www.amazon.com/PSP-Self-Improvement-Process-Software-Engineers/dp/0321305493/ref=sr_1_2?ie=UTF8&qid=1518669892&sr=8-2[from this book] footnote:[https://en.wikipedia.org/wiki/Watts_Humphrey[Watts Humphrey] is an as yet underappreciated luminary in the field of software engineering. More important even than the particulars of his ideas is the attitude which underlies them. Namely, his relentless pursuit of self-improvement and belief that software projects are rationally manageable in ways that lend themselves to continuous improvement in all important areas - productivity, prediction accuracy, quality, reliability. Furthermore, Humphrey believes such "rational management" can lend consistency and quality to the works of even less capable individuals while giving ultra-competent individuals the ability to thrive at new peaks of performance. Humphrey views the exasperated rejection of method and over-reliance on self-organization characteristic of Scrum, Agile, TDD et al. as surrender in the face of the difficult task of organizing and planning software development - more political than pragmatic. The link:https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=5259[data he collected] on his Team Software Process (TSP) bears this out. Software projects can be managed with the appropriate discipline and techniques, producing astounding results. Similarly for Humphrey, waterfall methods fall victim to a lack of delegation to competent and appropriately empowered teams actually capable of organizing, planning, and performing the work. They also fail to manage risk by ignoring the iterative unfolding of any complex system. What matters is technique and the individuals operating under those techniques. Recent attempts to reconcile TSP and Agile practices have been misguided - the two are fundamentally politically opposed.]) - none of which is adequate by itself to describe the complete component.
+For this very reason, the [IEEE 42010 standard](https://en.wikipedia.org/wiki/ISO/IEC_42010) chooses to emphasize the use of views and viewpoints over any single technique for describing a piece of software.
+This recognizes that the adequate description of a single software component may require a [system diagram view](https://en.wikipedia.org/wiki/System_context_diagram), a [class diagram view](https://en.wikipedia.org/wiki/Class_diagram), a [state-machine view](https://en.wikipedia.org/wiki/Finite-state_machine), and a logic specification view (of which I could find no good Googleable examples, but you can learn more ([from this book](https://www.amazon.com/PSP-Self-Improvement-Process-Software-Engineers/dp/0321305493/ref=sr_1_2?ie=UTF8&qid=1518669892&sr=8-2) [^1]) - none of which is adequate by itself to describe the complete component.
 
-image:/assets/images/ancient-skies.png[width=350,float=left]
+<img src="/assets/images/ancient-skies.png" width="350" style="float:left; padding: 1em" />
 
 Much like a map, which can be constructed at the level of a continent, a country, a province, a building, etc.
 A software system view can be constructed at varying levels of abstraction, and as the level of abstraction rises, the level of detail necessarily falls.
@@ -77,9 +76,9 @@ We will call these three primary arts Cartography, Biography, and Automation.
 
 # Cartography
 
-Any intellectual activity will experience a level up when an appropriate diagrammatic representation is discovered footnote:[Wikipedia contains link:https://commons.wikimedia.org/wiki/Specific_diagram_types[a large repository of diagrams] but solemnly notes "there is no general accepted classification of diagrams". A fascinating research problem.]. For example, link:https://en.wikipedia.org/wiki/Feynman_diagram[Feynman diagrams] replace rather large multi-variate integrals with a more compact and convenient visual representation which is more amenable to experimentation and dissemination.
+Any intellectual activity will experience a level up when an appropriate diagrammatic representation is discovered [^2]. For example, [Feynman diagrams](https://en.wikipedia.org/wiki/Feynman_diagram) replace rather large multi-variate integrals with a more compact and convenient visual representation which is more amenable to experimentation and dissemination.
 
-Software is no less amenable to pictographic capture. The basic building blocks are the link:https://en.wikipedia.org/wiki/Flowchart[Flowchart], link:https://en.wikipedia.org/wiki/Class_diagram[Class Diagram], link:https://en.wikipedia.org/wiki/Sequence_diagram[Sequence Diagram], link:https://en.wikipedia.org/wiki/UML_state_machine[State Diagram], and the other link:https://en.wikipedia.org/wiki/Unified_Modeling_Language[UML] basics footnote:[UML itself has fallen somewhat out of fashion and even traumatized some individuals with the inflated claims and overzealous totalizing of some of its early practitioners. See link:https://queue.acm.org/detail.cfm?id=984495["Death By UML Fever"] for an idea of what happened here. It provides a cautionary tale about being overly prescriptive or enthusiastic with regards to "one method to rule them all" in software engineering.]. A budding **software cartographer** should seek to master the widest array of diagramming tools possible including the more obscure variants like the link:https://en.wikipedia.org/wiki/System_context_diagram[System Context Diagram], the link:https://en.wikipedia.org/wiki/Data_flow_diagram[Data Flow Diagram], and link:https://en.wikipedia.org/wiki/Problem_frames_approach[Problem Frame]. Each of these is like a good tool and one should learn and when and what each of them is good for - a training that only experience can provide.
+Software is no less amenable to pictographic capture. The basic building blocks are the [Flowchart](https://en.wikipedia.org/wiki/Flowchart), [Class Diagram](https://en.wikipedia.org/wiki/Class_diagram), [Sequence Diagram](https://en.wikipedia.org/wiki/Sequence_diagram), [State Diagram](https://en.wikipedia.org/wiki/UML_state_machine), and the other [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) basics [^3]. A budding **software cartographer** should seek to master the widest array of diagramming tools possible including the more obscure variants like the [System Context Diagram](https://en.wikipedia.org/wiki/System_context_diagram), the [Data Flow Diagram](https://en.wikipedia.org/wiki/Data_flow_diagram), and [Problem Frame](https://en.wikipedia.org/wiki/Problem_frames_approach). Each of these is like a good tool and one should learn and when and what each of them is good for - a training that only experience can provide.
 
 Armed with these diagrammatic tools a **software cartographer** is able to raise the level of abstraction at which they operate away from code and towards higher-level, more speculative, and larger scale abstractions. These are the brushes with which you will paint your works. Much like a paint brush the value of their productions largely depends on the skill, experience, and natural talents of the person wielding them.
 
@@ -89,7 +88,7 @@ To summarize: The two cornerstones of cartography are the diagram and the docume
 
 # Biography
 
-Geography itself is divided into sub-disciplines: link:https://en.wikipedia.org/wiki/Physical_geography[Physical geography] and link:https://en.wikipedia.org/wiki/Political_geography[Political geography].
+Geography itself is divided into sub-disciplines: [Physical geography](https://en.wikipedia.org/wiki/Physical_geography) and [Political geography](https://en.wikipedia.org/wiki/Political_geography).
 What we call "cartography" above maps mostly closely to the former, meaning what we here call "biography" most closely maps to the latter.
 When we set out to describe a system we must make sure not to forget the people that inhabit and operate that system.
 
@@ -108,3 +107,11 @@ Armed with mature physical and political descriptions of our system we can now b
 Automation is the pinnacle of cartographic software engineering and its aim.
 
 While there is much still to say here the outline has been sketched. Now all that remains is its elaboration in practice.
+
+---
+
+[^1]: [Watts Humphrey](https://en.wikipedia.org/wiki/Watts_Humphrey) is an as yet underappreciated luminary in the field of software engineering. More important even than the particulars of his ideas is the attitude which underlies them. Namely, his relentless pursuit of self-improvement and belief that software projects are rationally manageable in ways that lend themselves to continuous improvement in all important areas - productivity, prediction accuracy, quality, reliability. Furthermore, Humphrey believes such "rational management" can lend consistency and quality to the works of even less capable individuals while giving ultra-competent individuals the ability to thrive at new peaks of performance. Humphrey views the exasperated rejection of method and over-reliance on self-organization characteristic of Scrum, Agile, TDD et al. as surrender in the face of the difficult task of organizing and planning software development - more political than pragmatic. The [data he collected](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=5259) on his Team Software Process (TSP) bears this out. Software projects can be managed with the appropriate discipline and techniques, producing astounding results. Similarly for Humphrey, waterfall methods fall victim to a lack of delegation to competent and appropriately empowered teams actually capable of organizing, planning, and performing the work. They also fail to manage risk by ignoring the iterative unfolding of any complex system. What matters is technique and the individuals operating under those techniques. Recent attempts to reconcile TSP and Agile practices have been misguided - the two are fundamentally politically opposed.
+
+[^2]: Wikipedia contains [a large repository of diagrams](https://commons.wikimedia.org/wiki/Specific_diagram_types) but solemnly notes "there is no general accepted classification of diagrams". A fascinating research problem.
+
+[^3]: UML itself has fallen somewhat out of fashion and even traumatized some individuals with the inflated claims and overzealous totalizing of some of its early practitioners. See ["Death By UML Fever"](https://queue.acm.org/detail.cfm?id=984495) for an idea of what happened here. It provides a cautionary tale about being overly prescriptive or enthusiastic with regards to "one method to rule them all" in software engineering.

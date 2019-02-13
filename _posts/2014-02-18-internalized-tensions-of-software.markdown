@@ -33,7 +33,7 @@ conflicts, but rather provides the form within which they have room to move.
 "This is, in general, the way in which real contradictions are resolved.
 For instance, it is a contradiction to depict one body as constantly falling towards
 another and at the same time flying away from it.
-The ellipse is a form of motion within which this contradiction is both realized and resolved" footnote:[Karl Marx, "Capital: Volume 1"]
+The ellipse is a form of motion within which this contradiction is both realized and resolved" [^1]
 
 The above framework should allow us to illuminate some of the reasons for the failure of traditional methodologies.
 Let's take, for example, the waterfall method.
@@ -53,3 +53,7 @@ As developers and team leaders we need to be aware of how we are striking this b
 not it is healthy for the project.
 Writing the software itself is usually not the hardest part of the software lifecycle.
 Instead, it is finding a company disciplined enough to perform the balancing act required consistently.
+
+---
+
+[^1]: Karl Marx, "Capital: Volume 1"

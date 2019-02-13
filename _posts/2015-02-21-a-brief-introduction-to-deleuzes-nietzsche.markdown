@@ -8,7 +8,7 @@ Human thought is immensely capable and also immensely error prone. Much of the
 task of philosophy has been dedicated to rooting out these errors. No philosophy
 has perhaps been more misunderstood and mystified, more prone to error, in this
 pursuit than that of
-http://en.wikipedia.org/wiki/Friedrich_Nietzsche[Friedrich Nietzsche].
+[Friedrich Nietzsche](http://en.wikipedia.org/wiki/Friedrich_Nietzsche).
 Nietzsche's primary project can be viewed as the uprooting of a single
 pernicious error and the tracing of the consequences of its correction. This
 error is most easily summarized as the preference for being over becoming. By
@@ -56,7 +56,7 @@ force in the same sense that electromagnetism and gravity are forces. Or, more
 mechanistically, this very inequality drives the evolution of new differences in
 a game without beginning or end. To get a concrete sense for this we have only
 to observe the differences in
-http://en.wikipedia.org/wiki/Intensive_and_extensive_properties[intensive quantities]
+[intensive quantities](http://en.wikipedia.org/wiki/Intensive_and_extensive_properties)
 in physical systems (temperature differences, pressure differences, electrical
 potential differences). These differences power all the physical systems we know
 of. This is, very visibly, the game of dominant and dominated forces cyclcing
@@ -83,11 +83,11 @@ thought:
 
 **Articles**
 
-  - link:http://www.capgemini.com/resource-file-access/resource/pdf/Digital_Transformation_Review__No_1__July_2011.pdf[The Digital as Bearer Of Another Society]
-  - http://www.parrhesiajournal.org/parrhesia07/parrhesia07_simondon2.pdf[Technical Mentality]
-  - http://www.parrhesiajournal.org/parrhesia07/parrhesia07_simondon1.pdf[The Position of the Problem Of Ontogenesis]
+  - [The Digital as Bearer of Another Society](http://www.capgemini.com/resource-file-access/resource/pdf/Digital_Transformation_Review__No_1__July_2011.pdf)
+  - [Technical Mentality](http://www.parrhesiajournal.org/parrhesia07/parrhesia07_simondon2.pdf)
+  - [The Position of the Problem Of Ontogenesis](http://www.parrhesiajournal.org/parrhesia07/parrhesia07_simondon1.pdf)
 
 **Videos**
 
-  - https://www.youtube.com/watch?v=0wW2l-nBIDg[Intensive and Topological Thinking]
-  - https://www.youtube.com/watch?v=e_bXlEvygHg[On Cybernetics/Stafford Beer]
+  - [Intensive and Topological Thinking](https://www.youtube.com/watch?v=0wW2l-nBIDg)
+  - [On Cybernetics/Stafford Beer](https://www.youtube.com/watch?v=e_bXlEvygHg)

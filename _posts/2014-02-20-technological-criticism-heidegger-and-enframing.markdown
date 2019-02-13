@@ -16,7 +16,7 @@ influential critics of technology by outlining their basic arguments in an
 accessible fashion with some of my own commentary attached. In the end the
 judgment is, of course, yours.
 
-=== Martin Heidegger and The Question Concerning Technology
+### Martin Heidegger and The Question Concerning Technology
 
 Martin Heidegger was the philosopher of Being. His magnum opus, _Being and
 Time_, sought to re-examine what the meaning of the word is _is_ and what human
@@ -44,7 +44,7 @@ airplane on the runway is always prepared to take off. This challenging
 relationship with nature also means that it is no longer viewed ecologically -
 as something that we have a symbiotic relationship to - but instead as the
 "chief storehouse of the standing energy reserve" to be set upon, unlocked,
-transformed, stored, distributed, and redistributed footnote:[Martin Heidegger. "The Question Concerning Technology and Other Essays"].
+transformed, stored, distributed, and redistributed [^1].
 
 Heidegger does not think that we are exercising our free will when we attempt to
 go at nature in this way, but instead that a particular mode of revealing
@@ -65,7 +65,7 @@ thereby to avoid our being enslaved to a single mode of revealing. The essay
 concludes with his call to the arts to help reveal to humanity in general the
 insanity of Enframing and our fundamental essence as human beings.
 
-=== Commentary
+### Commentary
 
 It helps, when evaluating the above argument by Heidegger, to understand what he
 thinks human beings are. For Heidegger, we are entities always already immersed
@@ -99,3 +99,7 @@ to the Earth and an understanding of our role as guardians of modes of existing.
 A world that would respect what he called the fourfold - Earth, Sky, Mortals,
 and Divinities. That would encourage multiple modes of revealing rather than
 overemphasizing a single one as Enframing currently does.
+
+---
+
+[^1]: Martin Heidegger. "The Question Concerning Technology and Other Essays".
